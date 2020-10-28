@@ -39,7 +39,7 @@ jobs:
       os: linux
       arch: arm64
       script:
-        - build -p always
+        - npm run publish --  -p always
 
     # - stage: Deploy Mac
     #   if: tag IS present
