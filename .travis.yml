@@ -40,7 +40,7 @@ jobs:
       os: linux
       arch: arm64
       script:
-        - npm run publish --  --armv7l -p always
+        - npm run publish --  -p always
 
     # - stage: Deploy Mac
     #   if: tag IS present
