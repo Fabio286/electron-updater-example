@@ -38,7 +38,6 @@ jobs:
       if: tag IS present
       os: linux
       arch: arm64
-      language: generic
       script:
         - npm run publish -- -p always
 
