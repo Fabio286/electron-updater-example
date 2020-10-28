@@ -34,12 +34,12 @@ jobs:
     #   before_cache:
     #     - rm -rf $HOME/.cache/electron-builder/wine
 
-    - stage: Deploy ARM Linux & Windows
+    - stage: Deploy ARM Linux
       if: tag IS present
       os: linux
       arch: arm64
       script:
-        - npm run publish --  -p always
+        - npm run publish -- --linux AppImage -p always
 
     # - stage: Deploy Mac
     #   if: tag IS present
