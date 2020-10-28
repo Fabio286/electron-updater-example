@@ -5,7 +5,6 @@ before_install:
   - npm install
 
 cache:
-  ccache: true
   directories:
     - node_modules
     - app/node_modules
