@@ -1,9 +1,9 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.13",
+  "version": "0.7.14",
   "main": "main.js",
   "description": "electron-updater example project",
-  "author": "Matt Haggard",
+  "author": "Fabio Di Stasio <fabio286@gmail.com>",
   "scripts": {
     "publish": "build"
   },
@@ -17,13 +17,6 @@
   },
   "build": {
     "appId": "com.github.iffy.electronupdaterexample",
-    "mac": {
-      "category": "your.app.category.type",
-      "target": [
-        "zip",
-        "dmg"
-      ]
-    },
     "linux": {
       "target": [
         "deb",
