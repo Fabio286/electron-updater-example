@@ -25,6 +25,9 @@ jobs:
     - stage: Deploy Linux & Windows
       if: tag IS present
       os: linux
+      arch: 
+        - amd64
+        - arm64
       services: docker
       language: generic
       script:
